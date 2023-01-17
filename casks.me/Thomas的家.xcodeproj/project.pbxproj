@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A937B092974D936009E8BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A937B082974D936009E8BCF /* AppDelegate.swift */; };
+		1A937B0B2974D936009E8BCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A937B0A2974D936009E8BCF /* SceneDelegate.swift */; };
+		1A937B0D2974D936009E8BCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A937B0C2974D936009E8BCF /* ViewController.swift */; };
+		1A937B102974D936009E8BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A937B0E2974D936009E8BCF /* Main.storyboard */; };
+		1A937B122974D938009E8BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A937B112974D938009E8BCF /* Assets.xcassets */; };
+		1A937B152974D938009E8BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A937B132974D938009E8BCF /* LaunchScreen.storyboard */; };
+		1A937B202974D938009E8BCF /* Thomas__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A937B1F2974D938009E8BCF /* Thomas__Tests.swift */; };
+		1A937B2A2974D938009E8BCF /* Thomas__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A937B292974D938009E8BCF /* Thomas__UITests.swift */; };
+		1A937B2C2974D938009E8BCF /* Thomas__UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A937B2B2974D938009E8BCF /* Thomas__UITestsLaunchTests.swift */; };
+		1A937B3A2974DBE8009E8BCF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A937B392974DBE8009E8BCF /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A937B1C2974D938009E8BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A937AFD2974D936009E8BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A937B042974D936009E8BCF;
+			remoteInfo = "Thomas的家";
+		};
+		1A937B262974D938009E8BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A937AFD2974D936009E8BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A937B042974D936009E8BCF;
+			remoteInfo = "Thomas的家";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A937B052974D936009E8BCF /* Thomas的家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thomas的家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A937B082974D936009E8BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A937B0A2974D936009E8BCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A937B0C2974D936009E8BCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A937B0F2974D936009E8BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A937B112974D938009E8BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A937B142974D938009E8BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A937B162974D938009E8BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A937B1B2974D938009E8BCF /* Thomas的家Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thomas的家Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A937B1F2974D938009E8BCF /* Thomas__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thomas__Tests.swift; sourceTree = "<group>"; };
+		1A937B252974D938009E8BCF /* Thomas的家UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thomas的家UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A937B292974D938009E8BCF /* Thomas__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thomas__UITests.swift; sourceTree = "<group>"; };
+		1A937B2B2974D938009E8BCF /* Thomas__UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thomas__UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A937B392974DBE8009E8BCF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A937B022974D936009E8BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A937B3A2974DBE8009E8BCF /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A937B182974D938009E8BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A937B222974D938009E8BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A937AFC2974D936009E8BCF = {
+			isa = PBXGroup;
+			children = (
+				1A937B072974D936009E8BCF /* Thomas的家 */,
+				1A937B1E2974D938009E8BCF /* Thomas的家Tests */,
+				1A937B282974D938009E8BCF /* Thomas的家UITests */,
+				1A937B062974D936009E8BCF /* Products */,
+				1A937B382974DBE8009E8BCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A937B062974D936009E8BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A937B052974D936009E8BCF /* Thomas的家.app */,
+				1A937B1B2974D938009E8BCF /* Thomas的家Tests.xctest */,
+				1A937B252974D938009E8BCF /* Thomas的家UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A937B072974D936009E8BCF /* Thomas的家 */ = {
+			isa = PBXGroup;
+			children = (
+				1A937B082974D936009E8BCF /* AppDelegate.swift */,
+				1A937B0A2974D936009E8BCF /* SceneDelegate.swift */,
+				1A937B0C2974D936009E8BCF /* ViewController.swift */,
+				1A937B0E2974D936009E8BCF /* Main.storyboard */,
+				1A937B112974D938009E8BCF /* Assets.xcassets */,
+				1A937B132974D938009E8BCF /* LaunchScreen.storyboard */,
+				1A937B162974D938009E8BCF /* Info.plist */,
+			);
+			path = "Thomas的家";
+			sourceTree = "<group>";
+		};
+		1A937B1E2974D938009E8BCF /* Thomas的家Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A937B1F2974D938009E8BCF /* Thomas__Tests.swift */,
+			);
+			path = "Thomas的家Tests";
+			sourceTree = "<group>";
+		};
+		1A937B282974D938009E8BCF /* Thomas的家UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A937B292974D938009E8BCF /* Thomas__UITests.swift */,
+				1A937B2B2974D938009E8BCF /* Thomas__UITestsLaunchTests.swift */,
+			);
+			path = "Thomas的家UITests";
+			sourceTree = "<group>";
+		};
+		1A937B382974DBE8009E8BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A937B392974DBE8009E8BCF /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A937B042974D936009E8BCF /* Thomas的家 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A937B2F2974D938009E8BCF /* Build configuration list for PBXNativeTarget "Thomas的家" */;
+			buildPhases = (
+				1A937B012974D936009E8BCF /* Sources */,
+				1A937B022974D936009E8BCF /* Frameworks */,
+				1A937B032974D936009E8BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thomas的家";
+			productName = "Thomas的家";
+			productReference = 1A937B052974D936009E8BCF /* Thomas的家.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A937B1A2974D938009E8BCF /* Thomas的家Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A937B322974D938009E8BCF /* Build configuration list for PBXNativeTarget "Thomas的家Tests" */;
+			buildPhases = (
+				1A937B172974D938009E8BCF /* Sources */,
+				1A937B182974D938009E8BCF /* Frameworks */,
+				1A937B192974D938009E8BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A937B1D2974D938009E8BCF /* PBXTargetDependency */,
+			);
+			name = "Thomas的家Tests";
+			productName = "Thomas的家Tests";
+			productReference = 1A937B1B2974D938009E8BCF /* Thomas的家Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A937B242974D938009E8BCF /* Thomas的家UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A937B352974D938009E8BCF /* Build configuration list for PBXNativeTarget "Thomas的家UITests" */;
+			buildPhases = (
+				1A937B212974D938009E8BCF /* Sources */,
+				1A937B222974D938009E8BCF /* Frameworks */,
+				1A937B232974D938009E8BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A937B272974D938009E8BCF /* PBXTargetDependency */,
+			);
+			name = "Thomas的家UITests";
+			productName = "Thomas的家UITests";
+			productReference = 1A937B252974D938009E8BCF /* Thomas的家UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A937AFD2974D936009E8BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1A937B042974D936009E8BCF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1A937B1A2974D938009E8BCF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1A937B042974D936009E8BCF;
+					};
+					1A937B242974D938009E8BCF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1A937B042974D936009E8BCF;
+					};
+				};
+			};
+			buildConfigurationList = 1A937B002974D936009E8BCF /* Build configuration list for PBXProject "Thomas的家" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A937AFC2974D936009E8BCF;
+			productRefGroup = 1A937B062974D936009E8BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A937B042974D936009E8BCF /* Thomas的家 */,
+				1A937B1A2974D938009E8BCF /* Thomas的家Tests */,
+				1A937B242974D938009E8BCF /* Thomas的家UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A937B032974D936009E8BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A937B152974D938009E8BCF /* LaunchScreen.storyboard in Resources */,
+				1A937B122974D938009E8BCF /* Assets.xcassets in Resources */,
+				1A937B102974D936009E8BCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A937B192974D938009E8BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A937B232974D938009E8BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A937B012974D936009E8BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A937B0D2974D936009E8BCF /* ViewController.swift in Sources */,
+				1A937B092974D936009E8BCF /* AppDelegate.swift in Sources */,
+				1A937B0B2974D936009E8BCF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A937B172974D938009E8BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A937B202974D938009E8BCF /* Thomas__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A937B212974D938009E8BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A937B2C2974D938009E8BCF /* Thomas__UITestsLaunchTests.swift in Sources */,
+				1A937B2A2974D938009E8BCF /* Thomas__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A937B1D2974D938009E8BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A937B042974D936009E8BCF /* Thomas的家 */;
+			targetProxy = 1A937B1C2974D938009E8BCF /* PBXContainerItemProxy */;
+		};
+		1A937B272974D938009E8BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A937B042974D936009E8BCF /* Thomas的家 */;
+			targetProxy = 1A937B262974D938009E8BCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A937B0E2974D936009E8BCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A937B0F2974D936009E8BCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A937B132974D938009E8BCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A937B142974D938009E8BCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A937B2D2974D938009E8BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A937B2E2974D938009E8BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A937B302974D938009E8BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7NB3ARFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thomas的家/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Casks.me;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.casks.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A937B312974D938009E8BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7NB3ARFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thomas的家/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Casks.me;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.casks.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A937B332974D938009E8BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7NB3ARFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tjokas.app.Thomas--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thomas的家.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thomas的家";
+			};
+			name = Debug;
+		};
+		1A937B342974D938009E8BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7NB3ARFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tjokas.app.Thomas--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thomas的家.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thomas的家";
+			};
+			name = Release;
+		};
+		1A937B362974D938009E8BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7NB3ARFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tjokas.app.Thomas--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thomas的家";
+			};
+			name = Debug;
+		};
+		1A937B372974D938009E8BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7NB3ARFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tjokas.app.Thomas--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thomas的家";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A937B002974D936009E8BCF /* Build configuration list for PBXProject "Thomas的家" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A937B2D2974D938009E8BCF /* Debug */,
+				1A937B2E2974D938009E8BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A937B2F2974D938009E8BCF /* Build configuration list for PBXNativeTarget "Thomas的家" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A937B302974D938009E8BCF /* Debug */,
+				1A937B312974D938009E8BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A937B322974D938009E8BCF /* Build configuration list for PBXNativeTarget "Thomas的家Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A937B332974D938009E8BCF /* Debug */,
+				1A937B342974D938009E8BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A937B352974D938009E8BCF /* Build configuration list for PBXNativeTarget "Thomas的家UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A937B362974D938009E8BCF /* Debug */,
+				1A937B372974D938009E8BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A937AFD2974D936009E8BCF /* Project object */;
+}
